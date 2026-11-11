@@ -12,7 +12,7 @@ st.title("⚙️ CNC Tool Wear Detection")
 st.write("Enter machine values to predict tool condition.")
 
 # Load trained model
-saved = joblib.load("cnc_tool_wear_model.pkl")
+saved = joblib.load("cnc_tool_wear_model .pkl")
 model = saved["model"]
 features = saved["features"]
 
